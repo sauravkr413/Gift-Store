@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <style>
+        body {
+            background: url('image/logo.resized.jpg');
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            width: 30%;
+        }
+
+        .mid {
+            display: block;
+            margin: -80px auto 15px auto;
+            /* border: 2px solid red; */
+            width: 30%;
+        }
+
+        .right {
+            position: absolute;
+            right: 9px;
+            top: 24px;
+            /* border: 2px solid red; */
+            width: 30%;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 10px;
+            padding: 5px;
+
+        }
+
+        li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        li a:hover {
+            color: green
+        }
+
+        .cointener {
+            border: 1px solid black;
+            font-size: 20px;
+
+        }
+
+        .search {
+            margin: 20px;
+            float: right;
+            border-radius: 21px;
+            height: 25px;
+        }
+
+        h1 {
+            margin: 15px;
+            color: greenyellow;
+            display: inline-block;
+        }
+
+        .header {
+            display: inline;
+        }
+        .left img{
+            width: 60px;
+        }
+        .gg {
+            border-radius: 50%;
+        }
+
+        .form {
+            display: block;
+            margin: 10px auto;
+            /* text-align: center; */
+            width: 33%;
+            background-color: #00ffd0;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .form input {
+            border-radius: 10px;
+            width: 92%;
+            height: 20px;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .form button {
+            display: block;
+            margin: auto;
+            background-color: mediumblue;
+            font-size: 20px;
+            width: 40%;
+            height: 36px;
+            border-radius: 17px;
+        }
+        }
+
+        .form button:hover{
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left class for logo -->
+        <div class="left">
+            <img src="image/ganesh.jpg" alt="" class="gg">
+        </div>
+        <!-- mid class for shop name  -->
+        <div class="mid">
+            <h1>GANESH FLOWERS</h1>
+        </div>
+
+        <!-- right class for search box  -->
+        <div class="right">
+
+            <input type="text" class="search" placeholder="Search for gifts">
+
+        </div>
+    </header>
+    <div class="cointener">
+        <ul>
+            <li><a href="#" class="">Mother's Day</a></li>
+            <li><a href="#" class="">Express Delivery</a></li>
+            <li><a href="#" class="">Cakes</a></li>
+            <li><a href="#" class="">Flowers</a></li>
+            <li><a href="#" class="">Combos</a></li>
+            <li><a href="#" class="">Gift</a></li>
+        </ul>
+
+    </div>
+    <div class="form">
+        <label for="Name">Name:</label><br>
+        <input type="text" class="inpb" placeholder="Name"><br>
+        <label for="Adress">Address:</label><br>
+        <input type=" text" class="inpb" placeholder="Addess"><br>
+        <label for="Mobile">Mobile No.:</label><br>
+        <input type="tel" name="" id="" class="inpb"><br>
+        <label for="Message">Message:</label><br>
+        <input type="text" name="msg" id="" class="inpb"><br><br>
+        <button type="submit">Send Gift</button>
+    </div>
+</body>
+
+</html>
